@@ -1,7 +1,8 @@
 body{
     background-color: rgb(14, 13, 13);
     margin: 0;
-    padding: 0px;       
+    padding: 0px;  
+    font-family: "Poppins", sans-serif;     
 }
 
 .main-container{
@@ -9,8 +10,15 @@ body{
     justify-content: center;
 }
 .image-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.image-wrapper img{
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
-    overflow: hidden;
+    
 }
 
 section h1{
@@ -30,45 +38,38 @@ section p{
 }
 
 
-.git-container{
+.links_container{
     padding: 20px;
     border: hidden;
     border-radius: 30px;
-    background-color: rgb(56, 56, 56);
-   
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
 }
 
-.mentor-container{
-    padding: 20px;
-    border: hidden;
-    border-radius: 30px;
-    background-color: rgb(56, 56, 56);
-   
+.header{
+    text-align: center;
 }
 
-.linkedin-container{
-    padding: 20px;
-    border: hidden;
-    border-radius: 30px;
+
+.link {
+    padding: 15px;
+    text-align: center ;
+    border-radius: 8px;
     background-color: rgb(56, 56, 56);
-   
+    color: white;
+    width: 100%;
+    transition: 0.5s;
+
 }
 
-.twitter-container{
-    padding: 20px;
-    border: hidden;
-    border-radius: 30px;
-    background-color: rgb(56, 56, 56);
-   
+a {
+    text-decoration: none; 
+    color: white;
+
 }
 
-.instagram-container{
-    padding: 20px;
-    border: hidden;
-    border-radius: 30px;
-    background-color: rgb(56, 56, 56);
-   
-}
 .main-container{
     background-color: rgb(22, 22, 22);
     width: 40%;
@@ -76,9 +77,4 @@ section p{
     padding: 30px;
     border-radius: 20px;
     overflow: hidden;
-}
-
-.main-container img{
-    width: 100%;
-    object-fit: contain;
 }
