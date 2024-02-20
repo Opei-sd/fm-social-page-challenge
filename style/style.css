@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(14, 13, 13);
+    margin: 0;
+    padding: 0px;       
+}
+
+.main-container{
+    padding: 30px;
+    justify-content: center;
+}
+.image-wrapper{
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+section h1{
+    font-size: 38px;
+    color: white;
+
+}
+
+section h3{
+    font-size: 20px;
+    color: yellowgreen;
+}
+
+section p{
+    color: white;
+
+}
+
+
+.git-container{
+    padding: 20px;
+    border: hidden;
+    border-radius: 30px;
+    background-color: rgb(56, 56, 56);
+   
+}
+
+.mentor-container{
+    padding: 20px;
+    border: hidden;
+    border-radius: 30px;
+    background-color: rgb(56, 56, 56);
+   
+}
+
+.linkedin-container{
+    padding: 20px;
+    border: hidden;
+    border-radius: 30px;
+    background-color: rgb(56, 56, 56);
+   
+}
+
+.twitter-container{
+    padding: 20px;
+    border: hidden;
+    border-radius: 30px;
+    background-color: rgb(56, 56, 56);
+   
+}
+
+.instagram-container{
+    padding: 20px;
+    border: hidden;
+    border-radius: 30px;
+    background-color: rgb(56, 56, 56);
+   
+}
+.main-container{
+    background-color: rgb(22, 22, 22);
+    width: 40%;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.main-container img{
+    width: 100%;
+    object-fit: contain;
+}
