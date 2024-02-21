@@ -1,80 +1,78 @@
-body{
-    background-color: rgb(14, 13, 13);
-    margin: 0;
-    padding: 0px;  
-    font-family: "Poppins", sans-serif;     
+body {
+  background-color: rgb(14, 13, 13);
+  margin: 0;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
 }
 
-.main-container{
-    padding: 30px;
-    justify-content: center;
+.main-container {
+  padding: 30px;
+  justify-content: center;
 }
-.image-wrapper{
-    display: flex;
-    justify-content: center;
-}
-
-.image-wrapper img{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    
+.image-wrapper {
+  display: flex;
+  justify-content: center;
 }
 
-section h1{
-    font-size: 38px;
-    color: white;
-
+.image-wrapper img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
 }
 
-section h2{
-    font-size: 20px;
-    color: yellowgreen;
+section h1 {
+  font-size: 38px;
+  color: white;
 }
 
-section p{
-    color: white;
-
+section h2 {
+  font-size: 20px;
+  color: yellowgreen;
 }
 
-
-.links_container{
-    padding: 20px;
-    border: hidden;
-    border-radius: 30px;
-    display: flex;
-    gap: 20px;
-    flex-direction: column;
-    align-items: center;
+section p {
+  color: white;
 }
 
-.header{
-    text-align: center;
+.links_container {
+  padding: 20px;
+  border: hidden;
+  border-radius: 30px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
 }
 
+.header {
+  text-align: center;
+}
 
 .link {
-    padding: 15px;
-    text-align: center ;
-    border-radius: 8px;
-    background-color: rgb(56, 56, 56);
-    color: white;
-    width: 100%;
-    transition: 0.5s;
-
+  padding: 15px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: rgb(56, 56, 56);
+  color: white;
+  width: 100%;
+  transition: 0.5s;
 }
 
+.link:hover {
+  background-color: yellowgreen;
+  color: black;
+  transition: 0.5s;
+}
 a {
-    text-decoration: none; 
-    color: white;
-
+  text-decoration: none;
+  color: white;
 }
 
-.main-container{
-    background-color: rgb(22, 22, 22);
-    width: 40%;
-    margin: 0 auto;
-    padding: 30px;
-    border-radius: 20px;
-    overflow: hidden;
+.main-container {
+  background-color: rgb(22, 22, 22);
+  width: 40%;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 20px;
+  overflow: hidden;
 }
